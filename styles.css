@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, section, article, footer {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* fondo */
+header {
+    background-color: #f4a261;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+}
+
+.color-fondo {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+.imagen-fondo {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* estilo del enlace */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0077b6;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
